@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AC803825951D4300E21C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC803725951D4300E21C7C /* AppDelegate.swift */; };
+		82AC804125951D4900E21C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804025951D4900E21C7C /* Assets.xcassets */; };
+		82AC804425951D4900E21C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804225951D4900E21C7C /* LaunchScreen.storyboard */; };
+		82AC804F25951D4900E21C7C /* BetWorksLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC804E25951D4900E21C7C /* BetWorksLoginTests.swift */; };
+		82AC805A25951D4900E21C7C /* BetWorksLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC805925951D4900E21C7C /* BetWorksLoginUITests.swift */; };
+		82AC807D25951EA700E21C7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC807C25951EA700E21C7C /* LoginViewController.swift */; };
+		82AC808C259525E200E21C7C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC808B259525E200E21C7C /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AC804B25951D4900E21C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AC802C25951D4300E21C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AC803325951D4300E21C7C;
+			remoteInfo = BetWorksLogin;
+		};
+		82AC805625951D4900E21C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AC802C25951D4300E21C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AC803325951D4300E21C7C;
+			remoteInfo = BetWorksLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82AC803425951D4300E21C7C /* BetWorksLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetWorksLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AC803725951D4300E21C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82AC804025951D4900E21C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82AC804325951D4900E21C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82AC804525951D4900E21C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AC804A25951D4900E21C7C /* BetWorksLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetWorksLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AC804E25951D4900E21C7C /* BetWorksLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetWorksLoginTests.swift; sourceTree = "<group>"; };
+		82AC805025951D4900E21C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AC805525951D4900E21C7C /* BetWorksLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetWorksLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AC805925951D4900E21C7C /* BetWorksLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetWorksLoginUITests.swift; sourceTree = "<group>"; };
+		82AC805B25951D4900E21C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AC807C25951EA700E21C7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		82AC808B259525E200E21C7C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AC803125951D4300E21C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AC804725951D4900E21C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AC805225951D4900E21C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AC802B25951D4200E21C7C = {
+			isa = PBXGroup;
+			children = (
+				82AC803625951D4300E21C7C /* BetWorksLogin */,
+				82AC804D25951D4900E21C7C /* BetWorksLoginTests */,
+				82AC805825951D4900E21C7C /* BetWorksLoginUITests */,
+				82AC803525951D4300E21C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AC803525951D4300E21C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AC803425951D4300E21C7C /* BetWorksLogin.app */,
+				82AC804A25951D4900E21C7C /* BetWorksLoginTests.xctest */,
+				82AC805525951D4900E21C7C /* BetWorksLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AC803625951D4300E21C7C /* BetWorksLogin */ = {
+			isa = PBXGroup;
+			children = (
+				82AC808A259525C900E21C7C /* Extensions */,
+				82AC807B25951E8400E21C7C /* Views */,
+				82AC803725951D4300E21C7C /* AppDelegate.swift */,
+				82AC804025951D4900E21C7C /* Assets.xcassets */,
+				82AC804225951D4900E21C7C /* LaunchScreen.storyboard */,
+				82AC804525951D4900E21C7C /* Info.plist */,
+			);
+			path = BetWorksLogin;
+			sourceTree = "<group>";
+		};
+		82AC804D25951D4900E21C7C /* BetWorksLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				82AC804E25951D4900E21C7C /* BetWorksLoginTests.swift */,
+				82AC805025951D4900E21C7C /* Info.plist */,
+			);
+			path = BetWorksLoginTests;
+			sourceTree = "<group>";
+		};
+		82AC805825951D4900E21C7C /* BetWorksLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82AC805925951D4900E21C7C /* BetWorksLoginUITests.swift */,
+				82AC805B25951D4900E21C7C /* Info.plist */,
+			);
+			path = BetWorksLoginUITests;
+			sourceTree = "<group>";
+		};
+		82AC807B25951E8400E21C7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82AC807C25951EA700E21C7C /* LoginViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82AC808A259525C900E21C7C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82AC808B259525E200E21C7C /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AC803325951D4300E21C7C /* BetWorksLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AC805E25951D4900E21C7C /* Build configuration list for PBXNativeTarget "BetWorksLogin" */;
+			buildPhases = (
+				82AC803025951D4300E21C7C /* Sources */,
+				82AC803125951D4300E21C7C /* Frameworks */,
+				82AC803225951D4300E21C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetWorksLogin;
+			productName = BetWorksLogin;
+			productReference = 82AC803425951D4300E21C7C /* BetWorksLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82AC804925951D4900E21C7C /* BetWorksLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AC806125951D4900E21C7C /* Build configuration list for PBXNativeTarget "BetWorksLoginTests" */;
+			buildPhases = (
+				82AC804625951D4900E21C7C /* Sources */,
+				82AC804725951D4900E21C7C /* Frameworks */,
+				82AC804825951D4900E21C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AC804C25951D4900E21C7C /* PBXTargetDependency */,
+			);
+			name = BetWorksLoginTests;
+			productName = BetWorksLoginTests;
+			productReference = 82AC804A25951D4900E21C7C /* BetWorksLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82AC805425951D4900E21C7C /* BetWorksLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AC806425951D4900E21C7C /* Build configuration list for PBXNativeTarget "BetWorksLoginUITests" */;
+			buildPhases = (
+				82AC805125951D4900E21C7C /* Sources */,
+				82AC805225951D4900E21C7C /* Frameworks */,
+				82AC805325951D4900E21C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AC805725951D4900E21C7C /* PBXTargetDependency */,
+			);
+			name = BetWorksLoginUITests;
+			productName = BetWorksLoginUITests;
+			productReference = 82AC805525951D4900E21C7C /* BetWorksLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AC802C25951D4300E21C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					82AC803325951D4300E21C7C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					82AC804925951D4900E21C7C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 82AC803325951D4300E21C7C;
+					};
+					82AC805425951D4900E21C7C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 82AC803325951D4300E21C7C;
+					};
+				};
+			};
+			buildConfigurationList = 82AC802F25951D4300E21C7C /* Build configuration list for PBXProject "BetWorksLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AC802B25951D4200E21C7C;
+			productRefGroup = 82AC803525951D4300E21C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AC803325951D4300E21C7C /* BetWorksLogin */,
+				82AC804925951D4900E21C7C /* BetWorksLoginTests */,
+				82AC805425951D4900E21C7C /* BetWorksLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AC803225951D4300E21C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AC804425951D4900E21C7C /* LaunchScreen.storyboard in Resources */,
+				82AC804125951D4900E21C7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AC804825951D4900E21C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AC805325951D4900E21C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AC803025951D4300E21C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AC807D25951EA700E21C7C /* LoginViewController.swift in Sources */,
+				82AC808C259525E200E21C7C /* Extensions.swift in Sources */,
+				82AC803825951D4300E21C7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AC804625951D4900E21C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AC804F25951D4900E21C7C /* BetWorksLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AC805125951D4900E21C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AC805A25951D4900E21C7C /* BetWorksLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AC804C25951D4900E21C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AC803325951D4300E21C7C /* BetWorksLogin */;
+			targetProxy = 82AC804B25951D4900E21C7C /* PBXContainerItemProxy */;
+		};
+		82AC805725951D4900E21C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AC803325951D4300E21C7C /* BetWorksLogin */;
+			targetProxy = 82AC805625951D4900E21C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AC804225951D4900E21C7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AC804325951D4900E21C7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AC805C25951D4900E21C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82AC805D25951D4900E21C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82AC805F25951D4900E21C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = BetWorksLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.doh.BetWorksLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82AC806025951D4900E21C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = BetWorksLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.doh.BetWorksLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82AC806225951D4900E21C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = BetWorksLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.doh.BetWorksLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetWorksLogin.app/BetWorksLogin";
+			};
+			name = Debug;
+		};
+		82AC806325951D4900E21C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = BetWorksLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.doh.BetWorksLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetWorksLogin.app/BetWorksLogin";
+			};
+			name = Release;
+		};
+		82AC806525951D4900E21C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = BetWorksLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.doh.BetWorksLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetWorksLogin;
+			};
+			name = Debug;
+		};
+		82AC806625951D4900E21C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = BetWorksLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.doh.BetWorksLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetWorksLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AC802F25951D4300E21C7C /* Build configuration list for PBXProject "BetWorksLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AC805C25951D4900E21C7C /* Debug */,
+				82AC805D25951D4900E21C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AC805E25951D4900E21C7C /* Build configuration list for PBXNativeTarget "BetWorksLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AC805F25951D4900E21C7C /* Debug */,
+				82AC806025951D4900E21C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AC806125951D4900E21C7C /* Build configuration list for PBXNativeTarget "BetWorksLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AC806225951D4900E21C7C /* Debug */,
+				82AC806325951D4900E21C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AC806425951D4900E21C7C /* Build configuration list for PBXNativeTarget "BetWorksLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AC806525951D4900E21C7C /* Debug */,
+				82AC806625951D4900E21C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AC802C25951D4300E21C7C /* Project object */;
+}
