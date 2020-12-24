@@ -10,7 +10,7 @@ import UIKit
 class CommonNavigationContoller : UINavigationController {
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
+        return .default
     }
 }
 

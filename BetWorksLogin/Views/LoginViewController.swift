@@ -13,21 +13,26 @@ class LoginViewController: UIViewController {
     lazy var userNameTextField: UITextField = {
         let textfield = UITextField()
         textfield.translatesAutoresizingMaskIntoConstraints = false
+        textfield.borderStyle = .line
         textfield.placeholder = "UserName "
+        textfield.backgroundColor = .lightGray
         return textfield
     }()
 
     lazy var passwordTextField:UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.borderStyle = .line
         textField.placeholder = "Password "
+        textField.backgroundColor = .lightGray
         return textField
     }()
 
     let loginBtn : UIButton = {
         let button = UIButton()
         button.setTitle("Login", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = .blue
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
