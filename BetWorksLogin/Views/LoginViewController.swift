@@ -78,8 +78,16 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
     }
 
     @objc private func login(){
-        let loginModel = LoginModelView(loginCredentials: LoginModel(userName: "durodolahabib", password: "password"))
-        loginModel.validateInputLoginCredentials()
+        let loginModel = LoginModelView(loginCredentials: LoginModel(userName: userNameTextField.text!, password: passwordTextField.text!))
+
+        if (loginModel.validateInputLoginCredentials()){
+            //login is successful
+            let homeVC = HomeViewController()
+            homeVC.username = userNameTextField.text!
+            self.navigationController?.pushViewController(homeVC, animated: true)
+            return
+        }
+         showErrorMessage()
     }
 
     //MARK:- DELEGATES

@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+//MARK:- LoginViewController
 extension LoginViewController {
 
     func setupAutoLayout(){
@@ -40,8 +42,34 @@ extension LoginViewController {
 
         view.addConstraints(constraints)
     }
+
+    func showErrorMessage(){
+        // Create new Alert
+        let dialogMessage = UIAlertController(title: "Error With Credentials ", message: "Username and Password must contain 13 characters \nwith Capital letter and a Number", preferredStyle: .alert)
+        let ok = UIAlertAction(title: "Dismiss", style: .default, handler: { (action) -> Void in
+
+         })
+        dialogMessage.addAction(ok)
+        self.present(dialogMessage, animated: true, completion: nil)
+    }
 }
 
+//MARK:- HomeViewController
+extension HomeViewController {
+
+    func setupAutoLayout(){
+        var constraints = [NSLayoutConstraint]()
+
+        //MARK:- welcome text
+        constraints += [NSLayoutConstraint.init(item: welcomeBackText, attribute: .top, relatedBy: .equal, toItem: view.safeAreaLayoutGuide, attribute: .top, multiplier: 1.0, constant: 100.0)]
+        constraints += [NSLayoutConstraint.init(item: welcomeBackText, attribute: .leading, relatedBy: .equal, toItem: view.safeAreaLayoutGuide, attribute: .leading, multiplier: 1.0, constant: 40.0)]
+        constraints += [NSLayoutConstraint.init(item: welcomeBackText, attribute: .trailing, relatedBy: .equal, toItem: view.safeAreaLayoutGuide, attribute: .trailing, multiplier: 1.0, constant: -40.0)]
+
+        view.addConstraints(constraints)
+    }
+}
+
+//MARK:- UIViewController
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
@@ -54,7 +82,7 @@ extension UIViewController {
     }
 }
 
-
+//MARK:- LoginViewController
 extension LoginViewController {
 
     @objc func keyboardWillShow(notification: Notification) {

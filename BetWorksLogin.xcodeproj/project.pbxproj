@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		828937A825954BF20021D755 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937A725954BF20021D755 /* LoginModel.swift */; };
 		828937AE25954D000021D755 /* LoginModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937AD25954CFF0021D755 /* LoginModelView.swift */; };
+		828937C525959C130021D755 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937C425959C130021D755 /* HomeViewController.swift */; };
 		82AC803825951D4300E21C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC803725951D4300E21C7C /* AppDelegate.swift */; };
 		82AC804125951D4900E21C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804025951D4900E21C7C /* Assets.xcassets */; };
 		82AC804425951D4900E21C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804225951D4900E21C7C /* LaunchScreen.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		828937A725954BF20021D755 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		828937AD25954CFF0021D755 /* LoginModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModelView.swift; sourceTree = "<group>"; };
+		828937C425959C130021D755 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		82AC803425951D4300E21C7C /* BetWorksLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetWorksLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AC803725951D4300E21C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AC804025951D4900E21C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				82AC807C25951EA700E21C7C /* LoginViewController.swift */,
+				828937C425959C130021D755 /* HomeViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				82AC808C259525E200E21C7C /* Extensions.swift in Sources */,
 				82AC803825951D4300E21C7C /* AppDelegate.swift in Sources */,
 				828937AE25954D000021D755 /* LoginModelView.swift in Sources */,
+				828937C525959C130021D755 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
