@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		828937A825954BF20021D755 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937A725954BF20021D755 /* LoginModel.swift */; };
+		828937AE25954D000021D755 /* LoginModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937AD25954CFF0021D755 /* LoginModelView.swift */; };
 		82AC803825951D4300E21C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC803725951D4300E21C7C /* AppDelegate.swift */; };
 		82AC804125951D4900E21C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804025951D4900E21C7C /* Assets.xcassets */; };
 		82AC804425951D4900E21C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804225951D4900E21C7C /* LaunchScreen.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		828937A725954BF20021D755 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		828937AD25954CFF0021D755 /* LoginModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModelView.swift; sourceTree = "<group>"; };
 		82AC803425951D4300E21C7C /* BetWorksLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetWorksLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AC803725951D4300E21C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AC804025951D4900E21C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +78,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		828937A625954BE00021D755 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				828937A725954BF20021D755 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		828937AC25954CF10021D755 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				828937AD25954CFF0021D755 /* LoginModelView.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
 		82AC802B25951D4200E21C7C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +117,8 @@
 		82AC803625951D4300E21C7C /* BetWorksLogin */ = {
 			isa = PBXGroup;
 			children = (
+				828937AC25954CF10021D755 /* ModelView */,
+				828937A625954BE00021D755 /* Model */,
 				82AC808A259525C900E21C7C /* Extensions */,
 				82AC807B25951E8400E21C7C /* Views */,
 				82AC803725951D4300E21C7C /* AppDelegate.swift */,
@@ -271,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AC807D25951EA700E21C7C /* LoginViewController.swift in Sources */,
+				828937A825954BF20021D755 /* LoginModel.swift in Sources */,
 				82AC808C259525E200E21C7C /* Extensions.swift in Sources */,
 				82AC803825951D4300E21C7C /* AppDelegate.swift in Sources */,
+				828937AE25954D000021D755 /* LoginModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZHAL8F38Z;
 				INFOPLIST_FILE = BetWorksLoginTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,7 +529,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZHAL8F38Z;
 				INFOPLIST_FILE = BetWorksLoginTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

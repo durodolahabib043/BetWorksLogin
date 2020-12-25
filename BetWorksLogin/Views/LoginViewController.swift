@@ -44,6 +44,7 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .blue
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(login), for: .touchUpInside)
         return button
     }()
 
@@ -64,18 +65,21 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
     }
 
     //MARK:- HANDLERS
-
     fileprivate func setupViews(){
         view.addSubview(headerText)
         view.addSubview(userNameTextField)
         view.addSubview(passwordTextField)
         view.addSubview(loginBtn)
-
     }
     fileprivate func setupInvisibleNavigation(){
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
+    }
+
+    @objc private func login(){
+        let loginModel = LoginModelView(loginCredentials: LoginModel(userName: "durodolahabib", password: "password"))
+        loginModel.validateInputLoginCredentials()
     }
 
     //MARK:- DELEGATES
