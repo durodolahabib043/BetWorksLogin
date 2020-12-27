@@ -25,7 +25,6 @@ class MockApiClient {
         self.shouldReturnError = shouldReturnError
     }
 
-
 }
 
 extension MockApiClient : ApiClientProtocol {

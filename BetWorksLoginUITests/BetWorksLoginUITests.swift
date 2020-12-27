@@ -25,11 +25,10 @@ class BetWorksLoginUITests: XCTestCase {
         let passwordTextField = app.textFields["Password"]
         passwordTextField.tap()
         passwordTextField.typeText("PasswordBet043")
-        app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.tap()
+
+        app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
         app.buttons["Login"].tap()
 
-        XCTAssert((app.textViews.staticTexts["DurodolaHabib043"]).exists, "This is the username")
-        
     }
 
 }
