@@ -22,7 +22,7 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
         let textfield = UITextField()
         textfield.translatesAutoresizingMaskIntoConstraints = false
         textfield.borderStyle = .line
-        textfield.placeholder = "UserName "
+        textfield.placeholder = "UserName"
         textfield.backgroundColor = .lightGray
         textfield.delegate = self
         return textfield
@@ -32,7 +32,7 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.borderStyle = .line
-        textField.placeholder = "Password "
+        textField.placeholder = "Password"
         textField.backgroundColor = .lightGray
         textField.delegate = self
         return textField

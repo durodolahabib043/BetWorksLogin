@@ -39,7 +39,7 @@ class HomeViewController: UIViewController {
         let attributes = [NSAttributedString.Key.font: font]
         let welcomeQuote = NSAttributedString(string: welcome, attributes: attributes)
 
-        let username = NSAttributedString(string: "\n\n\n\(user?.uppercased() ?? "")", attributes: [NSAttributedString.Key.foregroundColor : UIColor.blue , NSAttributedString.Key.font : UIFont.systemFont(ofSize: 18)])
+        let username = NSAttributedString(string: "\n\n\n\(user ?? "")", attributes: [NSAttributedString.Key.foregroundColor : UIColor.blue , NSAttributedString.Key.font : UIFont.systemFont(ofSize: 18)])
         let combination = NSMutableAttributedString()
         combination.append(welcomeQuote)
         combination.append(username)
