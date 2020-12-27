@@ -1,5 +1,9 @@
 # BetWorksLogin
 
+## Attention
+The Mock server expects "DurodolaHabib043" as username else it will fail. Password can be anything as long as it confirms to the Regex
+(13 CHARACTERS - ONE CAPITAL AND ONE DIGIT)
+
 ## App Architecture
 This app uses the MVVM architecture
 1. The View - consist of the HomeViewController and LoginViewController 
