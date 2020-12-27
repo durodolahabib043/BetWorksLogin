@@ -10,6 +10,8 @@
 		828937A825954BF20021D755 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937A725954BF20021D755 /* LoginModel.swift */; };
 		828937AE25954D000021D755 /* LoginModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937AD25954CFF0021D755 /* LoginModelView.swift */; };
 		828937C525959C130021D755 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937C425959C130021D755 /* HomeViewController.swift */; };
+		828937CB2597D0F60021D755 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937CA2597D0F60021D755 /* ApiClient.swift */; };
+		828937DE259821580021D755 /* MockApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828937D22597D30E0021D755 /* MockApiClient.swift */; };
 		82AC803825951D4300E21C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC803725951D4300E21C7C /* AppDelegate.swift */; };
 		82AC804125951D4900E21C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804025951D4900E21C7C /* Assets.xcassets */; };
 		82AC804425951D4900E21C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AC804225951D4900E21C7C /* LaunchScreen.storyboard */; };
@@ -40,6 +42,8 @@
 		828937A725954BF20021D755 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		828937AD25954CFF0021D755 /* LoginModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModelView.swift; sourceTree = "<group>"; };
 		828937C425959C130021D755 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		828937CA2597D0F60021D755 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		828937D22597D30E0021D755 /* MockApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiClient.swift; sourceTree = "<group>"; };
 		82AC803425951D4300E21C7C /* BetWorksLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetWorksLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AC803725951D4300E21C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82AC804025951D4900E21C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +100,15 @@
 			path = ModelView;
 			sourceTree = "<group>";
 		};
+		828937C92597D0DB0021D755 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				828937CA2597D0F60021D755 /* ApiClient.swift */,
+				828937D22597D30E0021D755 /* MockApiClient.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
 		82AC802B25951D4200E21C7C = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +132,7 @@
 		82AC803625951D4300E21C7C /* BetWorksLogin */ = {
 			isa = PBXGroup;
 			children = (
+				828937C92597D0DB0021D755 /* ApiClient */,
 				828937AC25954CF10021D755 /* ModelView */,
 				828937A625954BE00021D755 /* Model */,
 				82AC808A259525C900E21C7C /* Extensions */,
@@ -295,6 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828937CB2597D0F60021D755 /* ApiClient.swift in Sources */,
+				828937DE259821580021D755 /* MockApiClient.swift in Sources */,
 				82AC807D25951EA700E21C7C /* LoginViewController.swift in Sources */,
 				828937A825954BF20021D755 /* LoginModel.swift in Sources */,
 				82AC808C259525E200E21C7C /* Extensions.swift in Sources */,

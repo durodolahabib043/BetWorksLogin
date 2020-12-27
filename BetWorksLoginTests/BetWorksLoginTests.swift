@@ -10,6 +10,7 @@ import XCTest
 
 class BetWorksLoginTests: XCTestCase {
 
+    let mockApiClient = MockApiClient()
 
     func testValidateUserNameWrongInput(){
         let loginModel = LoginModel(userName: "Durod", password: "pasww")
@@ -23,6 +24,24 @@ class BetWorksLoginTests: XCTestCase {
         XCTAssertEqual(model.validateInputLoginCredentials(), true)
     }
 
+    func testMockLogin(){
+        let expectation = self.expectation(description: "login")
+        mockApiClient.login(userName: "DurodolaHabib043", password: "password") { (loginResponse, error) in
+            XCTAssertEqual(loginResponse?.username , "DurodolaHabib043" )
+            expectation.fulfill()
+        }
+        callWait()
+    }
+
+    func callWait()  {
+        self.waitForExpectations(timeout: 10) { (error) in
+            guard error == nil else {
+                XCTAssert(false)
+                NSLog("Timeout Error.")
+                return
+            }
+        }
+    }
     
 
 }

@@ -81,13 +81,21 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
         let loginModel = LoginModelView(loginCredentials: LoginModel(userName: userNameTextField.text!, password: passwordTextField.text!))
 
         if (loginModel.validateInputLoginCredentials()){
-            //login is successful
-            let homeVC = HomeViewController()
-            homeVC.username = userNameTextField.text!
-            self.navigationController?.pushViewController(homeVC, animated: true)
-            return
+           let mockLogin = MockApiClient()
+            mockLogin.login(userName: userNameTextField.text!, password: passwordTextField.text!) { (loginResponse, error) in
+                let password = (loginResponse?.username == self.userNameTextField.text!) ? true : false
+                if (password) {
+                    let homeVC = HomeViewController()
+                    homeVC.username = loginResponse?.username
+                    self.navigationController?.pushViewController(homeVC, animated: true)
+                    return
+                }
+                self.showErrorMessage()
+            }
         }
-         showErrorMessage()
+        else {
+            showErrorMessage()
+        }
     }
 
     //MARK:- DELEGATES
