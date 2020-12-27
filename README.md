@@ -24,8 +24,6 @@ The MVVM is used mainly to de-couple classes for unit-test.
   1. Xcode Version 12.3 , Swift 5 
   2. This app was tested with iphone x , version 12.1 (16B92)
  
-## Focus Areas.
-As stated above, i focused more on Architecture (MVVM) and unit-test
 
 
 ## Unit Test
