@@ -46,24 +46,8 @@
             filePath = "BetWorksLogin/Views/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "login()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7C468279-044E-4D8E-9CD8-A7FE36C3636C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BetWorksLogin/Views/LoginViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "login()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,42 +62,26 @@
             filePath = "BetWorksLogin/Views/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "login()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F42A10EA-4D2E-47BA-828A-FE2E016BD7E5 - e4fb2b44a1c519dc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BetWorksLogin.LoginViewController.(login in _5CD9150291C789F9176951999163A223)() -&gt; ()"
-                  moduleName = "BetWorksLogin"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hdurodola/Documents/random/iOS%20Apps/BetWorksLogin/BetWorksLogin/Views/LoginViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "796">
-               </Location>
-               <Location
-                  uuid = "F42A10EA-4D2E-47BA-828A-FE2E016BD7E5 - 97a8a522ec7324e0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;BetWorksLogin.LoginResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BetWorksLogin.LoginViewController.(login in _5CD9150291C789F9176951999163A223)() -&gt; ()"
-                  moduleName = "BetWorksLogin"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hdurodola/Documents/random/iOS%20Apps/BetWorksLogin/BetWorksLogin/Views/LoginViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "92">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAC70CD6-E28D-4D00-AD5D-27A707BD2B2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetWorksLogin/Views/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "login()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -41,8 +41,8 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
     let loginBtn : UIButton = {
         let button = UIButton()
         button.setTitle("Login", for: .normal)
-        button.setTitleColor(.white, for: .normal)
-        button.backgroundColor = .blue
+        button.setTitleColor(.white, for: .normal) 
+        button.backgroundColor = UIColor().setUIColor(red: 52, green: 164, blue: 235)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(login), for: .touchUpInside)
         return button
@@ -83,7 +83,8 @@ class LoginViewController: UIViewController , UITextFieldDelegate{
         if (loginModel.validateInputLoginCredentials()){
            let mockLogin = MockApiClient()
             mockLogin.login(userName: userNameTextField.text!, password: passwordTextField.text!) { (loginResponse, error) in
-                let password = (loginResponse?.username == self.userNameTextField.text!) ? true : false
+                let username = self.userNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+                let password = (loginResponse?.username == username) ? true : false
                 if (password) {
                     let homeVC = HomeViewController()
                     homeVC.username = loginResponse?.username
