@@ -10,24 +10,38 @@ import XCTest
 
 class BetWorksLoginTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    let mockApiClient = MockApiClient()
+
+    func testValidateUserNameWrongInput(){
+        let loginModel = LoginModel(userName: "Durod", password: "pasww")
+        let model = LoginModelView(loginCredentials: loginModel)
+        XCTAssertEqual(model.validateInputLoginCredentials(), false)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testValidateUserNameWithNumber(){
+        let loginModel = LoginModel(userName: "Durodolahabib043", password: "Password12123")
+        let model = LoginModelView(loginCredentials: loginModel)
+        XCTAssertEqual(model.validateInputLoginCredentials(), true)
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testMockLogin(){
+        let expectation = self.expectation(description: "login")
+        mockApiClient.login(userName: "DurodolaHabib043", password: "password") { (loginResponse, error) in
+            XCTAssertEqual(loginResponse?.username , "DurodolaHabib043" )
+            expectation.fulfill()
+        }
+        callWait()
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func callWait()  {
+        self.waitForExpectations(timeout: 10) { (error) in
+            guard error == nil else {
+                XCTAssert(false)
+                NSLog("Timeout Error.")
+                return
+            }
         }
     }
+    
 
 }
