@@ -1,7 +1,7 @@
 # BetWorksLogin
 
 ## Attention
-The Mock server expects "DurodolaHabib043" as username else it will fail. Password can be anything as long as it confirms to the Regex
+The Mock server expects "DurodolaHabib043" as username else it will fail. Password can be anything as long as it conforms to the Regex
 (13 CHARACTERS - ONE CAPITAL AND ONE DIGIT)
 
 ## App Architecture
