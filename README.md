@@ -17,7 +17,7 @@ This app uses the MVVM architecture
 4. Invisible Navigation is in effect.   (ALL A.C WAS SATISFIED)
 
 ## App Details
-1. This is build programmatically NO STORYBOARD 
+1. This is built programmatically NO STORYBOARD 
 
 
 Also there are Extension and ApiClient class. 
